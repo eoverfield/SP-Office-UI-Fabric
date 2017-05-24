@@ -1,0 +1,9 @@
+{
+  "name": "DialogCustom",
+  "dependencies": [
+    "Button",
+    "CheckBox",
+    "Overlay",
+    "ContextualHost"
+  ]
+}
