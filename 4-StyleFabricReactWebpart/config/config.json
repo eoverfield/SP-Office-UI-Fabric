@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "react-color-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactColorDemo/ReactColorDemoWebPart.js",
+          "manifest": "./src/webparts/reactColorDemo/ReactColorDemoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactColorDemoWebPartStrings": "lib/webparts/reactColorDemo/loc/{locale}.js"
+  }
+}

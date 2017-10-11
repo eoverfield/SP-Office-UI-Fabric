@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-color-demo-webpart-client-side-solution",
+    "id": "340ecac6-c586-4bb1-a258-fc44ddc15cad",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/react-color-demo-webpart.sppkg"
+  }
+}
