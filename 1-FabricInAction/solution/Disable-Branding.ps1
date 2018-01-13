@@ -40,7 +40,7 @@ Write-Host ""
 
 try
 {
-	Connect-SPOnline $targetSiteUrl -Credentials $Credentials
+	Connect-PnPOnline $targetSiteUrl -Credentials $Credentials
 
 	Write-Host -ForegroundColor White "Removing branding"
 
